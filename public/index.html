@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Serger Andreev</title>
+</head>
+<body>
+  <main>
+    <!-- Here -->
+    <section class="relative h-[675px] md:h-[720px] lg:h-[1107px] overflow-hidden">
+      <!-- Video Background -->
+      <video autoplay loop muted class="absolute top-0 left-0 w-full h-full object-cover">
+        <source src="./assets/video/hero-video.mp4" type="video/mp4" />
+        Sizning brauzeringiz videoni qo'llab-quvvatlamaydi.
+      </video>
+    
+      <!-- Content -->
+      <div class="max-w-base mx-auto relative z-10 bg-opacity-50 w-full h-full flex items-end px-2.5 md:px-5 py-8">
+        <h1 class="text-border" data-aos="zoom-out-up">
+          Сергей <br><span class="text-yellow-400">Андреев</span>
+        </h1>
+      </div>
+    </section>
+    <!-- Serial Entrepreneur -->
+    <section class="relative bg-cover bg-no-repeat bg-center overflow-hidden mb-80" style="background-image: url('./assets/img/main-2.png');">
+      <div class="relative z-10 max-w-base mx-auto px-2.5 md:px-5 pt-5 lg:pt-20 pb-20 lg:pb-12">
+        <div class="flex justify-between gap-5">
+          <h3 class="font-semibold text-[19px] lg:text-4xl xl:text-[50px]/[60.95px]" data-aos="zoom-out-right">Серийный <br> предприниматель</h3>
+          <div class="space-y-5">
+            <button class="block md:hidden transition duration-300 hover:opacity-75 h-max ml-auto">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>            
+            </button>
+            <!-- Links -->
+            <div class="hidden md:flex flex-col items-end gap-y-3 xl:gap-y-[34px] mt-5 md:mt-0" data-aos="zoom-out-left">
+              <a class="font-bold lg:text-xl/[24.38px] transition duration-300 hover:opacity-75" href="#">Контакты</a>
+              <a class="font-bold lg:text-xl/[24.38px] transition duration-300 hover:opacity-75" href="#">Обо мне</a>
+              <a class="font-bold lg:text-xl/[24.38px] transition duration-300 hover:opacity-75" href="#">Мои проекты</a>
+              <div class="flex justify-end gap-10 xl:py-5">
+                <a class="block shrink-0 transition duration-300 hover:opacity-75" href="#">
+                  <img class="size-7 lg:size-[34px]" src="./assets/img/telegram.png" alt="telegram">
+                </a>
+                <a class="block shrink-0 transition duration-300 hover:opacity-75" href="#">
+                  <img class="size-7 lg:size-[34px]" src="./assets/img/instagram.png" alt="instagram">
+                </a>
+              </div>
+              <a class="font-bold lg:text-xl/[24.38px] transition duration-300 hover:opacity-75" href="#">Смотреть подкаст</a>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-border mt-[450px] lg:mt-20 xl:mt-28" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Сергей <br> <span>Андреев</span></h2>
+      </div>
+      <img class="absolute bottom-0 lg:top-1/2 -translate-y-20 lg:-translate-y-1/2 z-0 size-[250px] md:size-80 lg:size-[750px] xl:size-[1000px]" src="./assets/svg/c.svg" alt="c-svg">
+    </section>
+  </main>
+  <!-- Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
