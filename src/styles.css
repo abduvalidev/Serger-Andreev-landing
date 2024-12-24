@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +10,7 @@
     @apply scroll-smooth
   }
   body {
-    @apply font-montserrat text-white overflow-x-hidden
+    @apply font-montserrat text-white text-[30px]/[36.31px] bg-dark overflow-x-hidden
   }
 }
 
@@ -18,5 +18,5 @@
   -webkit-text-stroke: 2px #FFFFFF;
   -webkit-text-fill-color: transparent;
   font-family: sans-serif;
-  @apply font-semibold text-7xl lg:text-9xl xl:text-[300px]
+  @apply font-semibold text-7xl lg:text-9xl xl:text-[300px]/[250px]
 }

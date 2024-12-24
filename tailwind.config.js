@@ -12,10 +12,14 @@ module.exports = {
         '2xl': '1536px',
       },
       fontFamily: {
-        'montserrat': ['Montserrat', 'sans-serif']
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
       },
       maxWidth: {
         'base': '110.375rem',
+      },
+      colors: {
+        dark: '#051119',
       }
     },
   },
